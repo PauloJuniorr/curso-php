@@ -1,4 +1,5 @@
 <?php
+
 include 'inc/mixin.php';
 
 echo 'Hello World';
@@ -116,8 +117,6 @@ echo date('Y-n-d');
 
 echo '<hr>';
 
-
-
-echo soma(10, 20);
+echo soma();
 
 ?>
