@@ -53,9 +53,52 @@ input {
 	font-weight: 600;
 	font-size: 16px;
 	transition: ease .3s;
+	display: inline-block;
+	margin-bottom: 10px;
+	text-decoration: none;
+	color: #000;
 }
 
 .button:hover {
 	background: #333;
 	color: #fff;
+}
+
+.alert {
+	padding: 10px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+.alert p {
+	margin-bottom: 5px;
+
+}
+
+.alert-error {
+	background: #ef8c8c;
+	color: #801111;
+}
+
+table {
+	border: solid 1px #ccc;
+	width: 100%;
+}
+
+table td,
+table th {
+	padding: 5px;
+	border: solid 1px #ccc;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
 }
